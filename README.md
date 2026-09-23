@@ -62,7 +62,7 @@ The main objectives of this project are:
 
 ## 👨‍💻 Author
 
-**Yashraj Kolhe**
+**Yash Kolhe**
 
 Computer Science & Engineering Student
 
