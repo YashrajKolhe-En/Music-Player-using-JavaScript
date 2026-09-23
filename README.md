@@ -67,8 +67,6 @@ The main objectives of this project are:
 
 **Yash Kolhe**
 
-Computer Science & Engineering Student
-
 ### GitHub
 
 https://github.com/YashrajKolhe-En
