@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.music-player {
+    width: 380px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    color: white;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.music-player h1 {
+    margin-bottom: 20px;
+}
+
+.album {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.album-icon {
+    font-size: 70px;
+}
+
+.song-info {
+    margin: 20px 0;
+}
+
+.song-info h2 {
+    font-size: 22px;
+}
+
+.song-info p {
+    margin-top: 7px;
+    color: #ccc;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+input[type="range"] {
+    flex: 1;
+    cursor: pointer;
+}
+
+.controls {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.controls button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.controls button:hover {
+    transform: scale(1.1);
+}
+
+#play {
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.autoplay {
+    display: block;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.playlist {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.playlist h3 {
+    margin-bottom: 10px;
+}
+
+#playlist {
+    list-style: none;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#playlist li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+
+#playlist li:hover,
+#playlist li.active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 450px) {
+    .music-player {
+        width: 90%;
+        padding: 20px;
+    }
+}
