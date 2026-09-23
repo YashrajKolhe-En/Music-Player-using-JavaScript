@@ -63,24 +63,9 @@ The main objectives of this project are:
 
 ---
 
-## 🔮 Future Improvements
-
-Some features that can be added in the future:
-
-* 🔍 Search songs
-* ❤️ Favorite songs
-* 📋 Playlist functionality
-* 🌙 Dark/Light mode
-* 🎚️ Advanced audio controls
-* 🎵 Song lyrics
-* 💾 Local storage for playlists
-* 📱 Improved mobile interface
-
----
-
 ## 👨‍💻 Author
 
-**Yashraj Kolhe**
+**Yash Kolhe**
 
 Computer Science & Engineering Student
 
