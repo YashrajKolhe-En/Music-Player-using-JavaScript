@@ -2,11 +2,6 @@
 
 A simple and responsive **Music Player** built using **HTML, CSS, and JavaScript**. This project allows users to play, pause, switch between songs, control volume, and interact with an easy-to-use music player interface.
 
-## 🚀 Live Project
-
-**GitHub Repository:**
-https://github.com/YashrajKolhe-En/Music-Player-using-JavaScript
-
 ---
 
 ## ✨ Features
