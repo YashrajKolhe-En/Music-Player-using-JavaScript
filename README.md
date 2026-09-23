@@ -43,7 +43,10 @@ Music-Player-using-JavaScript/
 ├── script.js
 ├── images/
 ├── music/
-└── README.me
+└── README.md
+```
+
+> The exact folder/file structure may vary depending on your project files.
 
 ---
 
@@ -60,9 +63,24 @@ The main objectives of this project are:
 
 ---
 
+## 🔮 Future Improvements
+
+Some features that can be added in the future:
+
+* 🔍 Search songs
+* ❤️ Favorite songs
+* 📋 Playlist functionality
+* 🌙 Dark/Light mode
+* 🎚️ Advanced audio controls
+* 🎵 Song lyrics
+* 💾 Local storage for playlists
+* 📱 Improved mobile interface
+
+---
+
 ## 👨‍💻 Author
 
-**Yash Kolhe**
+**Yashraj Kolhe**
 
 Computer Science & Engineering Student
 
@@ -70,3 +88,4 @@ Computer Science & Engineering Student
 
 https://github.com/YashrajKolhe-En
 
+---
